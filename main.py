@@ -1,6 +1,7 @@
 from typing import Optional
 
 from sqlmodel import Field, Session, SQLModel, create_engine, select
+from sqlalchemy import text
 
 
 class Hero(SQLModel, table=True):
